@@ -20,6 +20,7 @@ mod day_10;
 mod day_10_2;
 mod day_11;
 mod day_11_2;
+mod day_12;
 
 pub use crate::day_1::day_1_module;
 pub use crate::day_1_2::day_1_2_module;
@@ -43,6 +44,7 @@ pub use crate::day_10::day_10_module;
 pub use crate::day_10_2::day_10_2_module;
 pub use crate::day_11::day_11_module;
 pub use crate::day_11_2::day_11_2_module;
+pub use crate::day_12::day_12_module;
 
 fn main() {
     day_1_module::run();
@@ -67,4 +69,5 @@ fn main() {
     day_10_2_module::run();
     day_11_module::run();
     day_11_2_module::run();
+    day_12_module::run();
 }
